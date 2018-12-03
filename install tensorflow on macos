@@ -1,0 +1,4 @@
+sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.6.0-py3-none-any.whl
+＃忽视警告信息
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
